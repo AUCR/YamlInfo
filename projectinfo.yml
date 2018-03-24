@@ -1,0 +1,12 @@
+info:
+  project_name: "YamlInfo"
+  project_start_date: 03/22/2018
+  name: "YamlInfo"
+  authors: "Wyatt Roersma"
+  authors_email: "wyattroersma@gmail.com"
+
+version:
+  major: 0
+  minor: 1
+  revision: 1
+  release: 1
