@@ -1,15 +1,7 @@
 """YamlInfo Install Script"""
 # coding=utf-8
 from setuptools import setup, find_packages
-from pkg_resources import require, DistributionNotFound
-try:
-    require('PyYAML')
-    required='PyYAML'
-except DistributionNotFound:
-    required = 'PyYAML'
-
 from yaml_info.yamlinfo import YamlInfo
-
 
 
 project_data = YamlInfo("projectinfo.yml", "projectinfo", "LICENSE").get()
