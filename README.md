@@ -1,6 +1,6 @@
 # YamlInfo
-[![Build Status](https://travis-ci.org/AUCR/yamlinfo.svg?branch=master)](https://travis-ci.org/AUCR/AUCR)
-[![codecov](https://codecov.io/gh/AUCR/yamlinfo/branch/master/graph/badge.svg)](https://codecov.io/gh/AUCR/AUCR)
+[![Build Status](https://travis-ci.org/AUCR/yamlinfo.svg?branch=master)](https://travis-ci.org/AUCR/yamlinfo)
+[![codecov](https://codecov.io/gh/AUCR/yamlinfo/branch/master/graph/badge.svg)](https://codecov.io/gh/AUCR/yamlinfo)
 [![Coverage Status](https://coveralls.io/repos/github/AUCR/yamlinfo/badge.svg)](https://coveralls.io/github/AUCR/yamlinfo)
 [![Code Health](https://landscape.io/github/AUCR/yamlinfo/master/landscape.svg?style=flat)](https://landscape.io/github/AUCR/yamlinfo/master)
 A Project Info Yaml Configuration Module
