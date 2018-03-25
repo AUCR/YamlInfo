@@ -4,9 +4,10 @@ info:
   name: "YamlInfo"
   authors: "Wyatt Roersma"
   authors_email: "wyattroersma@gmail.com"
+  description: "yamlinfo is a yaml config file parsing library intended to give custom functionality to parsing."
 
 version:
   major: 0
   minor: 1
   revision: 1
-  release: 1
+  release: 6
