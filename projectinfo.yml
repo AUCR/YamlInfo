@@ -5,9 +5,16 @@ info:
   authors: "Wyatt Roersma"
   authors_email: "wyattroersma@gmail.com"
   description: "yamlinfo is a yaml config file parsing library intended to give custom functionality to parsing."
+  license: 'GPL-3.0'
+  classifiers:
+    - 'Development Status :: 4 - Beta'
+    - 'Intended Audience :: Developers'
+    - 'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)'
+    - 'Programming Language :: Python :: 3.6'
+
 
 version:
   major: 0
-  minor: 1
+  minor: 0
   revision: 1
-  release: 7
+  release: 11

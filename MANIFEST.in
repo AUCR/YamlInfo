@@ -1,0 +1,3 @@
+include README.md
+include projectinfo.yml
+include LICENSE
