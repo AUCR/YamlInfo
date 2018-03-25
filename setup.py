@@ -15,7 +15,7 @@ setup(
     install_requires=['PyYAML'],
     url='https://github.com/AUCR/YamlInfo',
     license='GPL-3.0',
-    author=project_data["info"]["author"],
+    author=project_data["info"]["authors"],
     author_email=project_data["info"]["authors_email"],
     description=project_data["info"]["description"],
     classifiers=[
