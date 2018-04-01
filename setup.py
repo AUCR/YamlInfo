@@ -15,7 +15,7 @@ setup(
     include_package_data=True,
     install_requires=["PyYAML"],
     packages=find_packages(exclude=["docs", "tests*"]),
-    url="https://github.com/AUCR/YamlInfo",
+    url=project_data["info"]["url"],
     license=project_data["info"]["license"],
     author=project_data["info"]["authors"],
     author_email=project_data["info"]["authors_email"],
