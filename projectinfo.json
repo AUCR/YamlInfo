@@ -1,0 +1,22 @@
+{
+  "info": {
+    "project_name": "YamlInfo",
+    "project_start_date": "03/22/2018",
+    "name": "YamlInfo",
+    "authors": "Wyatt Roersma",
+    "authors_email": "wyatt@aucr.io",
+    "description": "YamlInfo is a yaml config file parsing library intended to give custom functionality to parsing.",
+    "license": "GPL-3.0",
+    "classifiers": ["Development Status :: 4 - Beta",
+                    "Intended Audience :: Developers",
+                    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+                    "Programming Language :: Python :: 3.6"],
+    "url":"https://github.com/AUCR/YamlInfo"
+  },
+  "version": {
+    "major": 0,
+    "minor": 0,
+    "revision": 1,
+    "release": 14
+  }
+}

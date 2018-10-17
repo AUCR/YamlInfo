@@ -1,10 +1,12 @@
 """YamlInfo Install Script"""
 # coding=utf-8
+import json
 from setuptools import setup, find_packages
-from yaml_info.yamlinfo import YamlInfo
 
 
-project_data = YamlInfo("projectinfo.yml", "projectinfo", "LICENSE").get()
+with open("projectinfo.json", "rb") as project_info_json:
+    project_data = json.load(project_info_json)
+
 project_info_data = project_data["info"]
 project_version_data = project_data["version"]
 __version__ = "%(major)s.%(minor)s.%(revision)s.%(release)s" % project_version_data

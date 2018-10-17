@@ -1,7 +1,7 @@
 """YamlInfo Main Module"""
 # coding=utf-8
 import yaml
-import logging
+from logging import info
 
 
 class YamlInfo:
@@ -22,9 +22,9 @@ class YamlInfo:
             project_info_data = self.yaml_info_dict["info"]
             project_version_data = self.yaml_info_dict["version"]
             __version__ = "%(major)s.%(minor)s.%(revision)s.%(release)s" % project_version_data
-            logging.info("Starting " + self.yaml_info_dict["info"]["name"] + " v" + __version__)
+            info("Starting " + self.yaml_info_dict["info"]["name"] + " v" + __version__)
             for items in project_info_data:
-                logging.info(str(items) + ":" + str(project_info_data[items]))
+                info(str(items) + ":" + str(project_info_data[items]))
 
     def get(self) -> dict:
         """Return parsed project config file as a dict."""
