@@ -13,7 +13,7 @@ class YamlInfo:
         """Load yaml information and parse args info."""
         with open(yaml_config_file, 'rb') as input_config_file_object:
             yaml_info_strings = input_config_file_object.read()
-        self.yaml_info_dict = yaml.load(yaml_info_strings)
+        self.yaml_info_dict = yaml.safe_load(yaml_info_strings)
         if option == "projectinfo":
             if input_file == "LICENSE":
                 with open("LICENSE") as license_file:
