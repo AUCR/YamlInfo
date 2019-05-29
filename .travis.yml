@@ -1,7 +1,7 @@
 language: python
 python:
-- 3.6
-- 3.6-dev
+- 3.7
+- 3.7-dev
 before_install:
 - sudo apt-get update
 - sudo apt-get -y install python-pip
@@ -20,8 +20,8 @@ script:
 - codecov
 matrix:
   include:
-  - python: 3.6
-    env: TOXENV=py36
+  - python: 3.7
+    env: TOXENV=py37
 after_success:
 - coverage combine && codecov
 - coveralls
@@ -38,4 +38,4 @@ deploy:
     secure: hqkLAJe4kV0CskUcftSxG5YRtef0aVey68pLS+WWNNBFID1+xEdEmUOL8MA6kE5e69EjBbuRgTdtBD1gtlPlB+ewG7X1JcTKVo1ikkqWES9fRHRjuoBQFHsmKAJcJ+foeIGNVXD0P6ThuZYOF5DEw/+/C4yUpPrTxsvdElQ0gQweZlO+OKU843BZU7CIjesBzgXWUhhSJhOWwh4EWMNxHS+8CnuiemRQL2asiNsCr4rcn0ZkKk/atREkpv0b9IzKnDawh7cvHqf3ix+aLRbqwhVCT43SBt9tLsD9QTar7hcsYkqO7Vqde+mzAWiAdFA0PY5abOONprXz8R/5uFAQx6jhV6pRTZNokf7tuo+Q+Na+m7+SRUSFuuX8KNq8XkkSTcwL0nvh7K+zk3nHwSBpttaXsb5XpVOC5Yhxbudx9y6xhOBj9HTL1N8To08uKkq8vnAvrDmxQp4nfuZHYEmhUnYpVkyhAlH+TKuSzrywjMEaDVpmQQdvY/qvN2Sk7AChxP2pZ/3MUBCETyZ+udXjCs7mMBikJqOzyufQ1em57CdiJnQn0PtdQ9KV8ttmnpuwCcXY3Y+BSRBVkGdYhIS0/gRg4nuusMIp6rb/6/UymTxJuqgCeAMAJU1HMBQEk7ZRX7P/KVFp2PnD+60HKtSfXnQOxYj26ncrAakk/0jpqmk=
   on:
     tags: true
-    python: 3.6
+    python: 3.7

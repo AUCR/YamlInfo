@@ -10,7 +10,7 @@ info:
     - 'Development Status :: 4 - Beta'
     - 'Intended Audience :: Developers'
     - 'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)'
-    - 'Programming Language :: Python :: 3.6'
+    - 'Programming Language :: Python :: 3.7'
   url: "https://github.com/AUCR/YamlInfo"
 
 
@@ -18,4 +18,4 @@ version:
   major: 0
   minor: 0
   revision: 2
-  release: 5
+  release: 6
