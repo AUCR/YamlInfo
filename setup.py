@@ -9,7 +9,7 @@ with open("projectinfo.json", "rb") as project_info_json:
 
 project_info_data = project_data["info"]
 project_version_data = project_data["version"]
-__version__ = "%(major)s.%(minor)s.%(revision)s.%(release)s" % project_version_data
+__version__ = "%(major)s.%(minor)s.%(release)s" % project_version_data
 
 setup(
     name=project_data["info"]["name"],

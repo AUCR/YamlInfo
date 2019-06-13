@@ -21,7 +21,7 @@ class YamlInfo:
                 self.yaml_info_dict["license"] = license_strings.strip('\n')
             project_info_data = self.yaml_info_dict["info"]
             project_version_data = self.yaml_info_dict["version"]
-            __version__ = "%(major)s.%(minor)s.%(revision)s" % project_version_data
+            __version__ = "%(major)s.%(minor)s.%(release)s" % project_version_data
             info("Starting " + self.yaml_info_dict["info"]["name"] + " v" + __version__)
             for items in project_info_data:
                 info(str(items) + ":" + str(project_info_data[items]))
