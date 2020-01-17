@@ -1,4 +1,5 @@
 # YamlInfo
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c98f344fc6b44e8fac3757c7d87baceb)](https://app.codacy.com/gh/AUCR/YamlInfo?utm_source=github.com&utm_medium=referral&utm_content=AUCR/YamlInfo&utm_campaign=Badge_Grade_Dashboard)
 [![Build Status](https://travis-ci.org/AUCR/YamlInfo.svg?branch=master)](https://travis-ci.org/AUCR/YamlInfo)
 [![codecov](https://codecov.io/gh/AUCR/YamlInfo/branch/master/graph/badge.svg)](https://codecov.io/gh/AUCR/YamlInfo)
 [![Coverage Status](https://coveralls.io/repos/github/AUCR/YamlInfo/badge.svg)](https://coveralls.io/github/AUCR/YamlInfo)
