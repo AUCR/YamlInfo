@@ -11,14 +11,10 @@ A Project Info Yaml Configuration Module
 
 Please contact us in the organization slack and join the yamlinfo room to ask any questions!
 
-
 ## Overview
 
 The AUCR yamlinfo config library is intended to make all yaml file parsing a bit more advanced. 
 
-
 ## Goal
 
 The project has a simple goal to handle all the config file parsing needs we could have by giving more power to our config files.
-
-
